@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Projet Cloudinary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 300px;
+            max-width: 100%;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card p {
+            padding: 15px;
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Galerie de mon Projet Web</h1>
+        <p>Hébergement d'images optimisé avec Cloudinary</p>
+    </header>
+
+    <main class="gallery">
+        <!-- Image 1 -->
+        <div class="card">
+            <img src="https://res.cloudinary.com/xnycryq8/image/upload/f_auto,q_auto/b7b1c0eee0da97ee7973a6c24aad7a2d" alt="Image 1">
+            <p>Première image hébergée sur Cloudinary.</p>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="card">
+            <img src="https://res.cloudinary.com/xnycryq8/image/upload/f_auto,q_auto/IMG-20260904-WA0151" alt="Image 2">
+            <p>Deuxième image optimisée.</p>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="card">
+            <img src="https://res.cloudinary.com/xnycryq8/image/upload/f_auto,q_auto/IMG-20260904-WA0157" alt="Image 3">
+            <p>Troisième image de la galerie.</p>
+        </div>
+    </main>
+
+</body>
+</html>
+
